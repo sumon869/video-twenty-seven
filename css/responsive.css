@@ -1,0 +1,125 @@
+@media(max-width:1042px){
+    .header {
+        padding: 0 20px;
+    }
+    .servise-section {
+        padding-left: 20px;
+    }
+    .servise-item {
+        width: 31%;
+        box-sizing: border-box;
+    }
+    .conten {
+        padding: 0 20px;
+    }
+    .footer {
+        padding: 20px 20px;
+    }
+
+}
+@media(max-width:955px){
+    .header-right ul li a {
+        padding: 0px 17px;
+    }
+    .servise-item {
+        width: 31%;
+    }
+    .servise-item:nth-child(3){
+        margin-right: 0;
+    }
+}
+
+@media(max-width:813px){
+    .header-right ul li a {
+        padding: 0px 13px;
+        font-size: 20px;
+    }
+}
+@media(max-width:756px){
+    .header-left {
+        width: 100%;
+        text-align: center;
+    }
+    .menubar {
+        display: block;
+    }
+    .header-right {
+        width: 100%;
+    }
+    .header-right ul {
+        text-align: left;
+        display: none;
+        position: relative;
+        left: 44px;
+    }
+    .header-right ul li{
+        display: block;
+    }
+    .header-right ul li a {
+        font-size: 20px;
+        border: none;
+        line-height: 50px;
+    }
+    .header-right ul li:first-child a {
+        border: none;
+    }
+    .banner {
+        padding: 130px 0;
+    }
+    .inner-content h1 {
+        width: 300px;
+        font-size: 24px;
+    }
+    .inner-content h2 {
+        font-size: 25px;
+    }
+    .servise-item {
+        width: 100%;
+    }
+    .servise-section {
+        padding-right: 20px;
+    }
+    .servise-item {
+        margin-bottom: 29px;
+    }
+    .content-item {
+        margin-bottom: 30px;
+    }
+    .left-cont {
+        width: 100%;
+    }
+    .right-notis {
+        width: 100%;
+    }
+    .notice ul li {
+        width: 97%;
+    }
+    .footer-left {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-right {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .icon ul {
+        float: none;
+    }
+@media(max-width:535px){
+    .header-right ul li a {
+        font-size: 15px;
+    }
+}
+@media(max-width:392px){
+    .inner-content h1 {
+        width: 229px;
+        font-size: 20px;
+    }
+    .icon ul li a {
+        line-height: 35px;
+        height: 35px;
+        width: 35px;
+        margin-left: 9px;
+        font-size: 16px;
+    }
+}
